@@ -95,7 +95,7 @@ public void processMenu() {
         }
     }
     private void listCourses() {
-        String reset = "\u001B[0m";
+        String reset = "\u001B[0m"; 
         String cyanBold = "\u001B[1;36m";
         Table table = new Table(5, BorderStyle.UNICODE_BOX_HEAVY_BORDER, ShownBorders.ALL);
         table.addCell(cyanBold+"ID",new CellStyle(CellStyle.HorizontalAlign.CENTER));
